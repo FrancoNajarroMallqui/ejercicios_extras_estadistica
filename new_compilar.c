@@ -58,5 +58,6 @@ memset(ejecutar,'\0',strlen(name_ejecutable)+30);
 sprintf(ejecutar,"mpirun -np %d ./%s\n",array_np[i],name_ejecutable);
 system(ejecutar);
 }
+//fervrvrvtgvtbbrtvrtbtbrtbttybtebvrbtgbert
 return 0;
 }
